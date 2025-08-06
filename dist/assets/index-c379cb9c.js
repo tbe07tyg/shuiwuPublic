@@ -1,1 +1,0 @@
-import{_ as e}from"./index-053c0381.js";import{U as r,V as o}from"./vendor-e4b530e5.js";import"./antd-19bac614.js";const t={};function c(n,s){return r(),o("div",null,"文献管理页面")}const i=e(t,[["render",c]]);export{i as default};
