@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "vercel-build": "yarn install && yarn build"
   },
   "dependencies": {
     "@ant-design/icons-vue": "^7.0.0",
