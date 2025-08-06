@@ -1,0 +1,33 @@
+{
+  "name": "th-qd",
+  "version": "1.0.0",
+  "description": "TH_QD 项目管理系统",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.0",
+    "ant-design-vue": "^4.0.0",
+    "echarts": "^6.0.0",
+    "pinia": "^2.1.0",
+    "vue": "^3.3.0",
+    "vue-router": "^4.2.0",
+    "vuedraggable": "^2.24.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.0",
+    "terser": "^5.43.1",
+    "vite": "^4.4.0"
+  },
+  "keywords": [
+    "vue3",
+    "ant-design-vue",
+    "pinia",
+    "vue-router"
+  ],
+  "author": "",
+  "license": "MIT"
+}

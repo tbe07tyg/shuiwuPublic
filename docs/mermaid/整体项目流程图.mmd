@@ -1,0 +1,49 @@
+graph TD
+    subgraph "立项阶段"
+        A1[项目立项申请] --> A2[材料审核]
+        A2 --> A3[立项会议]
+        A3 --> A4[立项通过]
+    end
+    
+    subgraph "开题阶段"
+        B1[开题申请] --> B2[材料审核]
+        B2 --> B3[开题答辩]
+        B3 --> B4[开题通过]
+    end
+    
+    subgraph "实施阶段"
+        C1[项目实施] --> C2[技术开发]
+        C2 --> C3[功能实现]
+        C3 --> C4[测试验证]
+    end
+    
+    subgraph "中期阶段"
+        D1[中期申请] --> D2[材料审核]
+        D2 --> D3[中期检查]
+        D3 --> D4[中期通过]
+    end
+    
+    subgraph "验收阶段"
+        E1[验收申请] --> E2[材料审核]
+        E2 --> E3[验收会议]
+        E3 --> E4[验收通过]
+    end
+    
+    subgraph "归档阶段"
+        F1[项目归档] --> F2[文档整理]
+        F2 --> F3[成果移交]
+        F3 --> F4[项目完成]
+    end
+    
+    A4 --> B1
+    B4 --> C1
+    C4 --> D1
+    D4 --> C1
+    C4 --> E1
+    E4 --> F1
+    
+    style A4 fill:#e8f5e8
+    style B4 fill:#e8f5e8
+    style D4 fill:#e8f5e8
+    style E4 fill:#e8f5e8
+    style F4 fill:#e8f5e8
